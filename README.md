@@ -1,6 +1,6 @@
 # mermaid_practice
 
-graph TD
+graph TD;
   A[トイレ介助の開始] --> B[利用者を便座に誘導]
   B --> C[利用者が排せつを待つ状態]
   C --> D{他の利用者に呼ばれる}
