@@ -1,6 +1,6 @@
 # mermaid_practice
 
-'''mermaid
+```mermaid
 graph TD;
   A[トイレ介助の開始] --> B[利用者を便座に誘導]
   B --> C[利用者が排せつを待つ状態]
@@ -15,15 +15,4 @@ graph TD;
   J --> K[状況を報告し医療機関へ連絡]
   I --> L[介助終了]
   K --> L
-'''
-
-
-Here is a simple flow chart:
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
 ```
