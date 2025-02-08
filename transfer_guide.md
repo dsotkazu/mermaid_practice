@@ -1,5 +1,5 @@
 ```mermaid
-flowchart TD
+flowchart TD;
     Start[移乗方法の検討開始] --> A{自力で移乗できるか}
     
     A -->|はい| B{転倒などの危険性があるか}
@@ -12,22 +12,8 @@ flowchart TD
     C -->|いいえ| G{少しの引き上げで立てるか}
     
     G -->|はい| H[スタンディングリフト]
-    G -->|いいえ| I{座位保持は可能か}
+    G -->|いいえ| I{座位保持・体幹前傾は可能か}
     
     I -->|はい| J[スライディングボード]
     I -->|いいえ| K[リフト]
-    
-    D --> End[移乗方法決定]
-    E --> End
-    F --> End
-    H --> End
-    J --> End
-    K --> End
-
-    style D fill:#90EE90
-    style E fill:#FFE4B5
-    style F fill:#FFB6C1
-    style H fill:#B0C4DE
-    style J fill:#DDA0DD
-    style K fill:#F08080
 ```
