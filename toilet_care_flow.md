@@ -60,7 +60,4 @@ graph TD
     Q1[/"「お部屋に戻りましょうか」
     「ゆっくり歩いて戻りましょう」"/]
     Q --> Q1
-
-    style A fill:#f9f,stroke:#333
-    style S fill:#f9f,stroke:#333
 ```
